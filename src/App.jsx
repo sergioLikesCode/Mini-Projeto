@@ -12,14 +12,16 @@ import Contato from './pages/Contato';
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Produtos />} />
-        <Route path="contato" element={<Contato />} />
-        <Route path="produto/:id" element={<Produto/>} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Produtos />} />
+          <Route path="contato" element={<Contato />} />
+          <Route path="produto/:id" element={<Produto />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

@@ -1,0 +1,19 @@
+.produtos {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  img {
+    max-width: 100%;
+  }
+}
+
+.produto {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.1s;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}

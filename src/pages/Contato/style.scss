@@ -1,0 +1,24 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contato h1 {
+  font-size: 2rem;
+}
+
+.contato ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.contato ul li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background-color: #dddddd;
+  margin-right: 10px;
+}
+

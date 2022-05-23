@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 100px;
+  width: 100%;
+}
+
+footer a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #84e;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.307);
+}
+
+footer a:hover {
+  background-color: #94e;
+}

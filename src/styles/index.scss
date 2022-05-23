@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $Poppins;
+  width: 100%;
+  color: $dark;
+}
+
+#root {
+  height: 100%;
+  margin: auto;
+  width: $containerWidth;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.animeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft 0.3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+

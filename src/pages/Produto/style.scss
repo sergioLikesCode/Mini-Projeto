@@ -1,0 +1,19 @@
+.produto-detalhes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  span {
+    background-color: lime;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  p {
+    margin-top: 15px;
+
+  }
+}
